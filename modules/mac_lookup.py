@@ -8,7 +8,6 @@ class mac_info:
         self.company = company
         self.address = address
         self.country = country
-
 def mac_lookup(mac_addr):
     class_list = []
     MAC_URL = "http://macvendors.co/api/%s"
