@@ -19,8 +19,7 @@ def macLookup(args):
         collector.write(mac.mac_info_list[0] + "\n{}".format(mac.mac_info_list[1]) + "\n{}".format(mac.mac_info_list[2]))
         collector.write("\n============================================\n")            
         collector.close()
-    elif args.output[0] == "none":
-        print("NONE")
+    
     
        
 if __name__ == "__main__":
